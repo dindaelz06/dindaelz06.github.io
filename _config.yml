@@ -1,6 +1,6 @@
 title: Home
-baseurl: "" # kalau di root, biarkan kosong
-url: "https://dindaelz06.github.io/" # ganti sesuai username kamu
+baseurl: ""
+url: "https://dindaelz06.github.io/"
 
 sass:
   sass_dir: _sass
