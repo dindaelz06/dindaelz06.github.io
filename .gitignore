@@ -53,11 +53,8 @@ build-iPhoneSimulator/
 .rvmrc
 
 # Used by RuboCop. Remote config files pulled in from inherit_from directive.
-<<<<<<< HEAD
 # .rubocop-https?--*
 
 
 /_site
-=======
 # .rubocop-https?--*
->>>>>>> 1b6ac4e7251f18826e565188e573415b09752988
