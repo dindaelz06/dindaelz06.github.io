@@ -115,3 +115,5 @@ Keduanya sering digunakan bersamaan, misalnya untuk membuat menu navigasi situs:
 
 
 ---
+
+![HTML Link dan Lists](_site/assets/images/gambar html.png)

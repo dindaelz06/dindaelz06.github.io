@@ -5,7 +5,7 @@ title: <div class="bubble-effect blog-title">Layout dan Navigation</div>
 
 penjelasan tentang Layout dan Navigation
 
-![HTML link dan list]
+![HTML layout dan Navigation]
 
 ---
 

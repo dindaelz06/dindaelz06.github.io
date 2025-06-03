@@ -1,0 +1,159 @@
+---
+layout: post
+title : <div class="bubble-effect blog-title">Git</div>
+---
+
+penjelasan tentang Git
+
+![HTML GIT]
+
+---
+
+## Pengertian GIT dalam HTML
+
+Apa Itu Git?
+
+Git adalah sistem kontrol versi (Version Control System / VCS) yang digunakan untuk mencatat semua perubahan dalam file proyek. Cocok untuk pengembangan perangkat lunak karena memudahkan kolaborasi dan pengelolaan kode.
+
+Dibuat oleh: Linus Torvalds pada 2005
+Tipe: Terdistribusi (semua pengguna punya salinan repositori lengkap)
+
+
+---
+
+Keunggulan Git
+
+Mencatat perubahan: Setiap edit disimpan sebagai commit
+
+Kolaborasi tim: Banyak developer bisa bekerja bersamaan
+
+Branching: Bisa membuat cabang untuk fitur/eksperimen tanpa merusak kode utama
+
+Cepat dan efisien
+
+Gratis dan open source
+
+
+---
+
+Instalasi Git
+
+Windows:
+
+Unduh dari git-scm.com
+
+
+macOS:
+
+brew install git
+
+Linux:
+
+sudo apt install git
+
+
+---
+
+Konfigurasi Awal
+
+git config --global user.name "Nama Kamu"
+git config --global user.email "email@example.com"
+
+
+---
+
+Dasar Perintah Git
+
+1. Inisialisasi Repositori Baru
+
+git init
+
+2. Menambahkan File
+
+git add nama_file
+git add .  # semua file
+
+3. Commit Perubahan
+
+git commit -m "Pesan perubahan"
+
+4. Melihat Status & Riwayat
+
+git status
+git log
+
+
+---
+
+Bekerja dengan GitHub / Remote Repository
+
+Menambahkan Remote
+
+git remote add origin https://github.com/user/nama-repo.git
+
+Push ke Remote
+
+git push -u origin main
+
+Menarik Perubahan
+
+git pull origin main
+
+
+---
+
+Branching dan Merging
+
+Buat dan Pindah ke Branch Baru
+
+git branch fitur-baru
+git checkout fitur-baru
+
+Gabungkan Branch ke Main
+
+git checkout main
+git merge fitur-baru
+
+
+---
+
+Perintah Git Lainnya
+
+git clone url: Salin repo dari remote
+
+git stash: Simpan perubahan sementara
+
+git reset: Hapus commit terakhir
+
+git revert: Batalkan commit (tanpa menghapus)
+
+git tag: Tandai versi penting
+
+
+
+---
+
+Workflow Git Standar
+
+1. Clone repositori dari GitHub
+
+
+2. Buat branch baru
+
+
+3. Tambah/edit file, lalu add & commit
+
+
+4. Push branch ke GitHub
+
+
+5. Buat Pull Request
+
+
+6. Review dan merge ke branch utama (main)
+
+---
+
+Kesimpulan
+
+Git adalah alat penting untuk developer. Ia mencatat riwayat perubahan, memungkinkan kerja tim yang efisien, dan menjaga kode tetap aman. Menguasai Git adalah dasar untuk karier pemrograman yang solid.

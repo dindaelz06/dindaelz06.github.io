@@ -3,11 +3,39 @@
 <head>
     <meta charset="UTF-8">
     <title>{{ page.title }}</title>
+
+    <!-- sylesheet -->
     <link rel="stylesheet" href="{{ site.baseurl }}/assets/css/styles.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+    <!-- favicon -->
+     <link rel="icon" href=" {{ site.baseurl }}/assets/images/favicon.ico">
+
+     <!-- javascript -->
+      <script src="{{ site.baseurl }}/assets/js/scripts.js"></script>
+
+    <!-- plugins -->
+     {% feed_meta %}
+     {% seo %}
 </head>
 <body>
-    {% include navigation.html %}
-    {{ content }}
+    <div class="container   ">
+            <header>
+                <img src="{{ site.baseurl }}/assets/images/foto dindaaa.jpeg" alt="profile picture"
+                class="profile-picture">
+                        <h1>{{ site.title }}</h1>
+                        <p>{{ site.description }}</p>
+                    </header>
+                    <nav>
+                         {% include navigation.html %}
+                    </nav>
+                 
+                    <main>
+                         {{ content }}
+                    </main>
+
+                    <footer>
+                        <p>&copy; {{ site.time | date: '%Y' }} {{site.title }}. All rights reserved.</p>
+                    </footer>
+                </div>
 </body>
 </html>

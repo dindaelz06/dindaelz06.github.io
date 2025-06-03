@@ -4,6 +4,8 @@ title : <div class="bubble-effect blog-title"> Menginstall Ruby dan Jekyll</div>
 ---
 Penjelasan tentang instalasi Ruby dan Jekyll
 
+![HTML Ruby dan Jekyll]
+
 ---
 
 # 1. *Instalasi Ruby*
