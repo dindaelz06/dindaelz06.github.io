@@ -10,4 +10,4 @@ group :jekyll_plugins do
     gem "jekyll-seo-tag"
 end
 
-ruby '3.1.6'
+ruby '3.3.7'
