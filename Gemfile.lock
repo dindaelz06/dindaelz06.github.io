@@ -78,14 +78,12 @@ GEM
 
 PLATFORMS
   x64-mingw-ucrt
+  x86_64-linux
 
 DEPENDENCIES
   jekyll-feed
   jekyll-seo-tag
   jekyll-sitemap
-
-RUBY VERSION
-   ruby 3.3.7p123
 
 BUNDLED WITH
    2.6.6
